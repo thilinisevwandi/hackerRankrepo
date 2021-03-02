@@ -1,0 +1,43 @@
+body{
+    width: 33%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(96, 85, 107);
+}
+#res{
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 48px;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    overflow: auto;
+}
+#btns{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+
+}
+.childButtons{
+    width: 23%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    margin-top: 1px;
+}
+#btn0 , #btn1{
+    background-color: lightgreen;
+    color: brown;
+}
+#btnClr , #btnEql{
+    background-color: darkgreen;
+    color: white;
+}
+#btnSum , #btnSub , #btnMul ,#btnDiv{
+    background-color: black;
+    color: red;
+}
